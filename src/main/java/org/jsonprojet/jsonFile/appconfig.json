@@ -1,0 +1,35 @@
+{
+    "buConfs": [
+      {
+        "queuein": "DE_UAT_FIRCO_IN",
+        "queueout": "DE_UAT_FIRCO_OUT",
+        "queuedlq": "DE_UAT_FIRCO_DLQ",
+        "channel": "DE.API.SVRC.TLS",
+        "qeueManager": "*",
+        "connectionList":  "10.112.107.81(53200),10.112.107.119(53200)",
+        "applicationId": 12,
+        "applicationUuid": "e040a428-5d98-4fce-a4b7-4984e46508b8"
+      },
+      {
+        "queuein": "PT_UAT_FIRCO_IN",
+        "queueout": "PT_UAT_FIRCO_OUT",
+        "queuedlq": "PT_UAT_FIRCO_DLQ",
+        "channel": "PT.API.SVRC.TLS",
+        "qeueManager": "*",
+        "connectionList":  "10.112.107.81(53300),10.112.107.119(53300)",
+        "applicationId": 10,
+        "applicationUuid": "747a2c62-1335-4272-92a4-e4ad2ba1f026"
+      },
+      {
+        "queuein": "NL_UAT_FIRCO_IN",
+        "queueout": "NL_UAT_FIRCO_OUT",
+        "queuedlq": "NL_UAT_FIRCO_DLQ",
+        "channel": "NL.API.SVRC.TLS",
+        "qeueManager": "*",
+        "connectionList":  "10.112.107.81(53500),10.112.107.119(53500)",
+        "applicationId": 13,
+        "applicationUuid": "abc3b896-b3b3-4dd3-8e39-e75c051cb9f8"
+      }
+    ]
+
+}

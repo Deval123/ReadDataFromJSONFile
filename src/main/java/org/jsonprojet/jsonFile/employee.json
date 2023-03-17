@@ -1,0 +1,16 @@
+{
+  "firstName": "Devalère",
+  "lastName": "Kamguia",
+  "address": [
+    {
+      "street": "trianon",
+      "city": "Sodnac",
+      "state": "Qbornes"
+    },
+    {
+      "street": "Port Louis",
+      "city": "caudan",
+      "state": "TN"
+    }
+  ]
+}
